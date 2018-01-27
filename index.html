@@ -22,8 +22,6 @@
 		<title>Krister L&ouml;fgren - Curriculum Vitae</title>
 	</head>
 
-
-
 	<body>
 
 		<!-- Jumbotron-header -->
@@ -63,10 +61,8 @@
 						</a>
 					</h1>
 
+					<button type="submit" class="float-right btn btn-success" data-toggle="tooltip" title="Ladda ner CV som PDF"><a class="text-white" href="./CV-Krister_L%C3%B6fgren.pdf" download>Ladda ner CV</a></button>
 
-					<form method="get" action="./CV-Krister_Löfgren.pdf">
-						<button type="submit" class="float-right btn btn-success" data-toggle="tooltip" title="Ladda ner CV som PDF">Ladda ner CV</button>
-					</form>
 				</div>
 			</div>
 		</header>
@@ -90,10 +86,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
-					<div class="accordion">
+					<div id="accordion" role="tablist">
 						<div class="card">
 
-							<div class="card-header bg-info text-white" id="tekniskt">
+							<div class="card-header bg-info text-white" role="tab" id="tekniskt">
 								<h2 class="mb-0">
 									<button class="btn btn-link text-white text-uppercase"
 											data-toggle="collapse" data-target="#collapseOne"
@@ -200,8 +196,7 @@
 								</div>
 							</div>
 
-							<div class="card-header bg-info text-white"
-								 id="arbete">
+							<div class="card-header bg-info text-white" role="tab" id="arbete">
 
 								<h2 class="mb-0 text-white">
 									<button class="btn btn-link collapsed text-white text-uppercase"
@@ -298,7 +293,7 @@
 
 
 
-							<div class="card-header bg-info text-white" id="utbildning">
+							<div class="card-header bg-info text-white" role="tab" id="utbildning">
 								<h2 class="mb-0 text-white">
 									<button class="btn btn-link collapsed text-white text-uppercase"
 												   data-toggle="collapse" data-target="#collapseThree"
@@ -339,7 +334,7 @@
 							</div>
 
 
-							<div class="card-header bg-info text-white" id="kurser">
+							<div class="card-header bg-info text-white" role="tab" id="kurser">
 								<h2 class="mb-0 text-white">
 									<button class="btn btn-link collapsed text-white text-uppercase"
 												   data-toggle="collapse" data-target="#collapseFour"
@@ -389,7 +384,7 @@
 								</div>
 							</div>
 
-							<div class="card-header bg-info text-white" id="misc">
+							<div class="card-header bg-info text-white" role="tab" id="misc">
 								<h2 class="mb-0 text-white">
 									<button class="btn btn-link collapsed text-white text-uppercase"
 												   data-toggle="collapse" data-target="#collapseFive"
