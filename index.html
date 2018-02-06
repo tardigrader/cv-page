@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="sv">
 	<head>
 		<link rel="me" href="https://zork.nu/">
 
@@ -19,19 +19,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta charset="utf-8">
 
-		<title>Krister L&ouml;fgren - Curriculum Vitae</title>
+		<title>Krister Löfgren - Curriculum Vitae</title>
 	</head>
 
 	<body>
 
 		<!-- Jumbotron-header -->
-		<header>
+		<header  id="homesweethome">
 			<div class="container">
 				<img src="./cv_foto_liten.jpg" class="u-photo rounded-circle float-right" alt="Foto">
-				<div class="jumbotron pt-4 pb-4">
+				<div class="jumbotron pt-4 pb-2">
 					<hr>
-					<h1 style="font-family: 'Libre Baskerville', serif; padding-right: 20px ;"
-							   class="float-right text-muted">
+					<h1 style="font-family: 'Libre Baskerville', serif;"
+							   class="float-right text-muted pr-4">
 						Curriculum vitae
 					</h1>
 
@@ -47,21 +47,22 @@
 
 					<hr class="my-2">
 
-					<h1>
-						<a href="mailto:krister@tardigrader.se"
+					<nav class="nav">
+						<a class="nav-link p-0 text-dark" style="font-size: 0.8em;" href="mailto:krister@tardigrader.se"
 						   data-toggle="tooltip" data-placement="bottom"
-						   title="Skicka mejl till mig"><i class="icon ion-ios-email-outline text-dark"></i>
-						</a>
-
-
-						<a href="https://t.me/tardigrader"
+						   title="Skicka mejl till mig"><i style="font-size: 3em;" class="align-middle icon ion-ios-email-outline text-dark pr-1"></i>
+							Mejla mig</a>
+						<a class="nav-link pl-4 p-0 text-dark" style="font-size: 0.8em;" href="https://t.me/tardigrader"
 						   data-toggle="tooltip" data-placement="bottom"
 						   title="Ta kontakt på Telegram" target="_blank">
-							<i class="icon ion-ios-chatbubble-outline text-dark"></i>
-						</a>
-					</h1>
-
-					<a class="text-white" href="./CV-Krister_L%C3%B6fgren.pdf" download="CV-Krister_Löfgren.pdf"><button type="submit" class="float-right btn btn-success" data-toggle="tooltip" title="Ladda ner CV som PDF">Ladda ner CV</button></a>
+							<i style="font-size:3em;" class="align-middle icon ion-ios-chatbubble-outline text-dark pr-1"></i>
+							Chatta</a>
+						<a class="nav-link pl-4 p-0 text-dark" style="font-size: 0.8em;" href="./CV_Krister_Löfgren.pdf" download="CV_Krister_Löfgren.pdf"
+						   data-toggle="tooltip" data-placement="bottom"
+						   title="Ladda ner mitt CV som PDF" target="_blank">
+							<i style="font-size:3em;" class="align-middle icon ion-ios-download-outline text-dark pr-1"></i>
+							Ladda ner CV</a>
+					</nav>
 
 				</div>
 			</div>
@@ -73,8 +74,8 @@
 					Skribent, pappa, wanna-be-poet, fotograf och allround
 					UNIX-nörd. Passionerat intresserad av teknik och
 					datorer sedan barnsben.
-					<mark>
-						<strong>Mer än tjugo år av Linuxerfarenhet.</strong>
+					<mark class="font-weight-bold">
+						<strong>Mer än tjugo år</strong> av Linuxerfarenhet.
 					</mark>
 					Bor i kommandoraden och aktiv i
 					<a href="https://hacker.h-sund.nu" target="_blank">
@@ -116,6 +117,14 @@
 											konfigurera <mark>Linux, Windows, FreeBSD,
 											OpenBSD</mark> samt i viss mån andra mindre
 											UNIX-varianter (AIX, Solaris osv).
+											<details>
+												<summary>Detaljerad information</summary>
+												<ul>
+													<li>Fedora, Ubuntu, OpenSUSE, CentOS, Arch, Mint osv</li>
+													<li>Viss erfarenhet av DragonflyBSD</li>
+													<li>Windows 7, Windows 10</li>
+												</ul>
+											</details>
 										</li>
 										<li class="list-group-item">
 											<h5 class="font-weight-bold">Serveradministration</h5>
@@ -123,22 +132,52 @@
 											konfiguration av serverprogramvara,
 											exempelvis <mark>Apache webbserver, filservers,
 											säkerhetslösningar som SSH, VPN och
-											brandväggar</mark>.
+												brandväggar</mark>.
+											<details>
+												<summary>Detaljerad information</summary>
+												<ul>
+													<li>Apache, nginx</li>
+													<li>Owncloud/NextCloud, vsftpd</li>
+													<li>OpenSSH, OpenVPN, iptables, ufw, viss erfarenhet av LDAP</li>
+													<li>SElinux</li>
+													<li>MySQL, sqlite, PostgreSQL</li>
+												</ul>
+											</details>
 										</li>
 										<li class="list-group-item">
 											<h5 class="font-weight-bold">Open Source</h5>
 											God kännedom om open source och
-											gemenskapen kring fri programvara.
+											gemenskapen kring fri programvara samt licensfrågor.
 										</li>
 										<li class="list-group-item">
 											<h5 class="font-weight-bold">Virtualisering</h5>
 											Erfarenhet av Docker, Vagrant, Linux
 											Containers, Virtualbox, qemu, Amazon EC2
 											och andra virtualiseringstjänster.
+											<details>
+												<summary>Detaljerad information</summary>
+												<ul>
+													<li>Docker, Docker Swarm</li>
+													<li>VirtualBox, KVM, qemu, Vagrant</li>
+													<li>FreeBSD jails, Linux containers (LXC/LXD)</li>
+													<li>Amazon EC2, viss erfarenhet av Microsoft Azure</li>
+													<li>Viss erfarenhet av Heroku</li>
+													<li>Micro-OS för virtualisering: Red Hat Atomic, CoreOS, RancherOS</li>
+													<li>Viss kunskap om Kubernetes</li>
+												</ul>
+											</details>
 										</li>
 										<li class="list-group-item">
 											<h5 class="font-weight-bold">DevOps</h5>
 											Erfarenhet av Ansible, Jenkins, Nagios, Cockpit etc.
+											<details>x
+												<summary>Detaljerad information</summary>
+												<ul>
+													<li>Ansible</li>
+													<li>Cockpit, Datadog</li>
+												</ul>
+											</details>
+
 										</li>
 										<li class="list-group-item">
 											<h5 class="font-weight-bold">Infrastruktur</h5>
@@ -154,11 +193,24 @@
 										</li>
 										<li class="list-group-item">
 											<h5 class="font-weight-bold">Programmering och utveckling</h5>
-											Grundläggande programmeringskunskaper i
-											till exempel Java, Python, JavaScript,
-											Ruby, bash, Lua, Scheme med flera. Samt
-											IDEs som NetBeans och IntelliJ och Maven,
-											Ant och viss mån Gradle.
+											Grundläggande programmeringskunskaper i ett flertal programmeringsspråk.
+											Även IDEs som NetBeans, IntelliJ, Eclipse, Atom med flera. Erfarenhet
+											av Maven, Ant och i viss mån Gradle.
+											<details>
+												<summary>Detaljerad information</summary>
+												<ul>
+													<li>Java</li>
+													<li>Python</li>
+													<li>JavaScript</li>
+													<li>Ruby</li>
+													<li>Lua</li>
+													<li>Scheme</li>
+													<li>bash</li>
+													<li>Begränsad men viss kunskap om C, LISP</li>
+													<li>Emacs, VIM</li>
+													<li>IntelliJ, NetBeans, Atom, Eclipse, Bracket</li>
+												</ul>
+											</details>
 										</li>
 										<li class="list-group-item">
 											<h5 class="font-weight-bold">Versionshantering</h5>
@@ -171,26 +223,51 @@
 											Väl bekant med IRC, Slack, Microsoft
 											Office, Google docs och liknande
 											produktivitetstjänster/mjukvaror.
+											<details>
+												<summary>Detaljerad information</summary>
+												<ul>
+													<li>Microsoft Office, Google Docs, Libre-/OpenOffice</li>
+													<li>Inkscape, GIMP</li>
+													<li>IRC, Slack, XMPP</li>
+													<li>Viss erfarenhet av InDesign, Photoshop, Illustrator</li>
+												</ul>
+											</details>
 										</li>
 										<li class="list-group-item">
 											<h5 class="font-weight-bold">Webbutveckling, frontend</h5>
 											Kunnig i HTML, CSS, SASS/LESS, Wordpress, Bootstrap.<br>
-
-											<ul>
-												<li class="list-group-item font-weight-bold">Exempel på tidigare arbeten</li>
-												<li class="list-group-item border-0">
+											<details>
+												<summary>Detaljerad information</summary>
+												<ul>
+													<li>HTML5, CSS</li>
+													<li>Grundläggande JavaScript</li>
+													<li>SASS, LESS</li>
+													<li>Bootstrap</li>
+													<li>Bildoptimering</li>
+													<li>Tillgänglighet med WCAG</li>
+													<li>Grundläggande kunskap om GDPR</li>
+												</ul>
+											</details>
+											<details>
+												<summary>Exampel på tidigare arbeten</summary>
+												<ul>
+													<li class="list-group-item border-0">
 													<i class="icon ion-android-star-half"></i>
-											<a href="http://www.resurssida.se" target="_blank">
-												Resurssida: http://www.resurssida.se</a>
-												</li>
-											<li class="list-group-item border-0"><i class="icon ion-android-star-half"></i>
-											<a href="http://www.doftochsmak.se" target="_blank">
-												Doft och smak: http://www.doftochsmak.se</a>
-											</li>
-											<li class="list-group-item border-0"><i class="icon ion-android-star-half"></i>
-											<a href="https://www.homj.se" target="_blank">
-												Holmsunds Modelljärnvägsförening, https://www.homj.se</a>
-											</li>
+													<a href="http://www.resurssida.se" target="_blank">
+													Resurssida: http://www.resurssida.se</a>
+													</li>
+													<li class="list-group-item border-0">
+													<i class="icon ion-android-star-half"></i>
+													<a href="http://www.doftochsmak.se" target="_blank">
+													Doft och smak: http://www.doftochsmak.se</a>
+													</li>
+													<li class="list-group-item border-0">
+													<i class="icon ion-android-star-half"></i>
+													<a href="https://www.homj.se" target="_blank">
+													Holmsunds Modelljärnvägsförening, https://www.homj.se</a>
+													</li>
+												</ul>
+											</details>
 										</li>
 									</ul>
 								</div>
@@ -218,14 +295,17 @@
 												Installationstekniker/IT-reparatör,
 												Viva Arbetsmarknad
 												</h5>
-												Hårdvarureparationer och
-												ominstallationer av
-												operativsystem för kommunens
-												datorer. Säker rensning av
-												hårddiskar med känslig och
-												sekretessbelagd information
-												från exempelvis Socialtjänst
-												och andra myndigheter.
+												<details>
+													<summary>Mer information</summary>
+														Hårdvarureparationer och
+														ominstallationer av
+														operativsystem för kommunens
+														datorer. Säker rensning av
+														hårddiskar med känslig och
+														sekretessbelagd information
+														från exempelvis Socialtjänst
+														och andra myndigheter.
+												</details>
 											</li>
 											<li class="list-group-item">
 												<time datetime="2008">2008</time>-<time datetime="2014">2014</time><br>
@@ -233,15 +313,18 @@
 													Föreståndare/Egen företagare,
  													Holmsunds Tropikhus
 												</h5>
-												Holmsunds Tropikhus var en
-												mindre djurpark med fokus på
-												exotiska djur, framför allt
-												grod- och kräldjur. Som
-												föreståndare skötte jag allt
-												ifrån planering, skötsel,
-												kundkontakt, marknadsföring,
-												kassa, IT, guidade turer och
-												föredrag.
+												<details>
+													<summary>Mer information</summary>
+													Holmsunds Tropikhus var en
+													mindre djurpark med fokus på
+													exotiska djur, framför allt
+													grod- och kräldjur. Som
+													föreståndare skötte jag allt
+													ifrån planering, skötsel,
+													kundkontakt, marknadsföring,
+													kassa, IT, guidade turer och
+													föredrag.
+												</details>
 											</li>
 											<li class="list-group-item">
 												<time datetime="2060">2006</time>-<time datetime="2007">2007</time><br>
@@ -262,14 +345,17 @@
 											<li class="list-group-item">
 												<time datetime="2000">2000</time>-<time datetime="2002">2002</time><br>
 												<h5 class="font-weight-bold">Webb- och grafisk formgivning, Umeå Kommun</h5>
-											    <h6>Timanställning</h6>
-												Efter kommunens behov har jag
-												hjälpt till med grafisk
-												formgivning av broschyrer,
-												affischer och liknande
-												informationsmaterial men även
-												byggt hemsidor, fört statistik
-												och liknande åt kommunen.
+												<details>
+													<summary>Mer information</summary>
+													<h6>Timanställning</h6>
+													Efter kommunens behov har jag
+													hjälpt till med grafisk
+													formgivning av broschyrer,
+													affischer och liknande
+													informationsmaterial men även
+													byggt hemsidor, fört statistik
+													och liknande åt kommunen.
+												</details>
 											</li>
 											<li class="list-group-item">
 												<time datetime="1999">1999</time>
@@ -291,8 +377,6 @@
 								</div>
 							</div>
 
-
-
 							<div class="card-header bg-info text-white" role="tab" id="utbildning">
 								<h2 class="mb-0 text-white">
 									<button class="btn btn-link collapsed text-white text-uppercase"
@@ -301,8 +385,8 @@
 										Utbildning <i class="icon ion-android-open"></i>
 									</button>
 								</h2>
-
 							</div>
+
 							<div id="collapseThree" class="collapse"
 								 aria-labelledby="utbildning" data-parent="#accordion">
 								<div class="card-body bg-light">
@@ -332,7 +416,6 @@
 									</ul>
 								</div>
 							</div>
-
 
 							<div class="card-header bg-info text-white" role="tab" id="kurser">
 								<h2 class="mb-0 text-white">
@@ -442,23 +525,59 @@
 												</li>
 											</ul>
 										</li>
-										<h5 style="padding:30px 10px 0px 0px;" class="card-title font-weight-bold">Övrigt</h5>
-										<li class="list-group-item">
-											<strong>Innehar B-körkort.</strong>
+										<h5 class="card-title font-weight-bold pt-4">Övrigt</h5>
+										<li class="list-group-item font-weight-bold">
+											Innehar B-körkort.
 										</li>
-										<li class="list-group-item">
-											<strong>Goda kunskaper i svenska och engelska,
-												både skriftligt och talat.</strong>
+										<li class="list-group-item font-weight-bold">
+											Goda kunskaper i svenska och engelska,
+											både skriftligt och talat.
 										</li>
 									</ul>
 								</div>
 							</div>
+
+						<div class="card-header bg-info text-white" role="tab" id="selfstudy">
+							<h2 class="mb-0 text-white">
+								<button class="btn btn-link collapsed text-white text-uppercase"
+										data-toggle="collapse" data-target="#collapseSix"
+										aria-expanded="false" aria-controls="collapseSix">
+									Övrigt: Nuvarande självstudier<i class="icon ion-android-open"></i>
+								</button>
+							</h2>
 						</div>
-									</ul>
+
+						<div id="collapseSix" class="collapse"
+							 aria-labelledby="selfstudy" data-parent="#accordion">
+							<div class="card-body bg-light">
+								<ul class="list-group list-group-flush">
+									<h5 class="card-title font-weight-bold">
+										Självstudier och nuvarande studiefokus
+									</h5>
+									<li class="list-group-item bg-primary text-white">
+										<h5>Tekniskt</h5>
+									</li>
+									<li class="list-group-item">
+										Fördjupar mig i Web Content Accessibility Guidelines (WCAG).
+									</li>
+									<li class="list-group-item">
+										Studerar Django (Python) via CodeSchool.
+									</li>
+
+									<li class="list-group-item bg-primary text-white font-weight-bold">
+										<h5>Övrigt</h5>
+									</li>
+									<li class="list-group-item">
+										Friskar upp kunskaperna kring Creative Commons.
+									</li>
+								</ul>
+							</div>
+						</div>
+						</div>
 					</div>
 				</div>
 
-				<!-- Right column -->
+			<!-- Right column -->
 
 				<div class="col-lg-4">
 					<div class="card bg-light mb-3" style="border-radius:0;">
@@ -518,7 +637,7 @@
 			<hr>
 			<nav class="navbar bg-light pt-0 pb-0">
 				<a class="navbar-brand">Krister Löfgren</a>
-				<a class="nav-link" href="#"><i class="ion ion-home"></i></a>
+				<a class="nav-link" href="#homesweethome"><i class="ion ion-home"></i></a>
 				<a class="nav-link" data-toggle="collapse" data-target="#collapseOne" href="#tekniskt"><i class="ion ion-monitor"></i> Tekniskt kunnande</a>
 				<a class="nav-link" data-toggle="collapse" data-target="#collapseTwo" href="#arbete"><i class="ion ion-briefcase"></i> Arbete</a>
 				<a class="nav-link" data-toggle="collapse" data-target="#collapseThree" href="#utbildning"><i class="ion ion-university"></i> Utbildning</a>
